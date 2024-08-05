@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+div.wrapper {
+  width: 100%;
+}
+div.wrapper > div.header {
+  width: 100%;
+  height: 90px;
+}
+
+div.wrapper > div.header > img {
+  margin: 32px 178px;
+}
+div.wrapper > div.main {
+  width: 100%;
+  height: 755.2px;
+  background-color: rgb(242, 242, 242);
+}
+
+div.wrapper > div.main > div.box {
+  width: 640px;
+  height: 650.2px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 445px;
+  position: absolute;
+  border-radius: 25px;
+}
+
+div.wrapper > div.main > div.box > div.contain {
+  width: 496px;
+  height: 563.2px;
+
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+div.wrapper > div.main > div.box > div.contain > div {
+  width: 496px;
+  height: 72px;
+  font-size: 27px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-bottom: 36px;
+}
+
+div.wrapper > div.main > div.box > div.contain > div > h1 {
+  width: 496px;
+  height: 72px;
+  font-size: 27px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset {
+  width: 496px;
+  height: 455.2px;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > form {
+  width: 372px;
+  height: 200px;
+
+  margin: 0 auto;
+  text-align: left;
+}
+
+div.wrapper
+  > div.main
+  > div.box
+  > div.contain
+  > div.filedset
+  > form
+  > input:nth-of-type(1) {
+  width: 372px;
+  height: 36px;
+  padding-right: 320px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid rgb(24, 2, 2);
+  margin-top: 10px;
+  outline: none;
+}
+
+div.wrapper
+  > div.main
+  > div.box
+  > div.contain
+  > div.filedset
+  > form
+  > input:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > form > label {
+  font-size: 14px;
+
+  vertical-align: middle;
+}
+
+div.wrapper
+  > div.main
+  > div.box
+  > div.contain
+  > div.filedset
+  > form
+  > a:nth-of-type(1) {
+  display: block;
+  font-size: 20px;
+  background-color: rgb(207, 182, 230);
+  height: 45px;
+  border-radius: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+div.wrapper
+  > div.main
+  > div.box
+  > div.contain
+  > div.filedset
+  > form
+  > a:nth-of-type(2) {
+  font-size: 12px;
+  margin-top: 20px;
+  text-decoration: 1px solid gray underline;
+}
+
+div.wrapper
+  > div.main
+  > div.box
+  > div.contain
+  > div.filedset
+  > form
+  > a:nth-of-type(3) {
+  font-size: 12px;
+  margin-top: 15px;
+  text-decoration: 1px solid gray underline;
+  display: block;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > div {
+  width: 70%;
+  height: 45px;
+  background-color: rgb(229, 229, 229);
+  margin-top: 35px;
+  border-radius: 20px;
+  margin-left: 70px;
+  position: relative;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > div > img {
+  width: 10%;
+  height: 30px;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: calc(50% - 15px);
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > div > a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  color: black;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > input {
+  margin-top: 50px;
+  width: 20px;
+  height: 20px;
+}
+
+div.wrapper > div.main > div.box > div.contain > div.filedset > label {
+  font-size: 16px;
+  color: rgb(51, 45, 45);
+  vertical-align: middle;
+}

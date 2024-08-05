@@ -1,0 +1,7 @@
+@import url(main.css);
+
+div.wrapper > div.header > div.menu {
+  width: 80%;
+  height: inherit;
+  background-color: aqua;
+}
